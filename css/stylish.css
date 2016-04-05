@@ -37,6 +37,59 @@ body {
     font-weight: 700;
 }
 
+/* overriding bootstrap */
+
+.bg-primary {
+    color: #fff;
+    background-color: #007a00;
+}
+
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+    background-color: #006600;
+}
+
+.text-primary {
+    color: #007a00;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #006600;
+}
+
+/* Selection */
+
+.bg-primary ::selection {
+    background: #fff;
+    color: #007a00;
+}
+
+/*
+.bg-primary ::-moz-selection {
+    background: #fff;
+    color: #007a00;
+}
+*/
+
+.about ::selection {
+    background: #007a00;
+    color: #fff;
+}
+
+/*
+.about ::-moz-selection {
+    background: #007a00;
+    color: #fff;
+}
+*/
+
+.image ::selection {
+    background: #007a00;
+    color: #fff;
+}
+
 /* Linkz */
 
 .btn-dark {
