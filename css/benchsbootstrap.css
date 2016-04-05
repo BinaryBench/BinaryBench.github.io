@@ -1,0 +1,43 @@
+
+
+/* custom column widths */
+
+.col-lg-2point2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+
+/* Large columns */
+@media (min-width: 1200px) {
+    .col-lg-2point2 {
+        float: left
+    }
+    .col-lg-2point2 {
+        width: 20%;
+    }
+
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+    vertical-align: text-top;
+
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+
+    vertical-align: text-top;
+}
+
+.no-break {
+    white-space: nowrap;
+}

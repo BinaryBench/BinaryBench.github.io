@@ -1,0 +1,208 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-bottem {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+
+.text-vertical-center h1, .text-vertical-bottem h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Linkz */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    text-decoration: underline;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 1);
+
+
+
+    background: url(../img/sunset-flag-america-fields.jpg) no-repeat center center scroll;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
+
+}
+
+.header a {
+    text-shadow: none;
+}
+
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+#issues-row {
+    padding: 0 15px;
+}
+
+.issues-item {
+    margin-bottom: 5px;
+}
+
+.issues-item h4 {
+    font-size: 1.5em;
+}
+
+.issues-item p {
+    font-size: 1.2em;
+}
+
+
+/* Quotes */
+
+.quotes {
+    padding: 50px 0;
+}
+
+#quotes-row {
+    padding: 0 30px;
+}
+
+.quote-item {
+    margin-bottom: 20px;
+}
+
+.quote-item p {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.quote-item span {
+    font-weight: bolder;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    //text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+    background: url(../img/bird-animal-united-states-of-america-bald-eagle.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    -webkit-font-smoothing: antialiased;
+    text-shadow:  0 1px 8px rgba(0, 0, 0, 1);
+}
+
+
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Footer */
+
+footer {
+    padding: 50px 0;
+}

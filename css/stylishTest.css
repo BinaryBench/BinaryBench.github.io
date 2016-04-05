@@ -1,0 +1,106 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-bottem {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+
+.text-vertical-center h1, .text-vertical-bottem h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    text-decoration: underline;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    flex: 1 1 250px;
+    flex-grow: 0;
+
+    text-align:center;
+}
+
+/*
+.service-item {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1 1 250px;
+    text-align:center;
+}
+*/
+
+#issues {
+    display: flex;
+    flex-wrap:wrap;
+}
